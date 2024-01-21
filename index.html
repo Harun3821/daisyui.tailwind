@@ -34,13 +34,14 @@
 <body  class="font-manrope">
 
     <header class="container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row">
+     <div class="my-20">
+            <div class="flex flex-col lg:flex-row justify-between items-center">
              
               <div>
                 <h1 class="text-7xl font-font-extrabold">It's good<br> tea time at The<br> Tea House</h1>
                 <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="btn btn-primary">Explore More</button>
+                <button class="btn btn- bg-gradient-to-r from-[#FF8938] to-[#F00] text-white"> 
+                Explore More <i class="fa fa-location-arrow"></i></button>
               </div>
              <div class="">
             <img src="img/banner.png" class="max-w-sm" />
@@ -132,26 +133,96 @@
    <!---Super----Clients--section---->
 
    <section class="my-24 flex flex-col lg:flex-row gap-12 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24">
-     <div class="space-y-5">
-    <h2 class="text-5xl font-extrabold text-white">Meet Our Super<br>Clients</h2>
-    <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-    <button class="btn btn-primary">Show All</button>
-     </div>
-     <!----review------>
-     <div class="p-10 rounded-lg bg-white relative">
-     <img class="absolute -left-5 -top-5" src="img/client.png">   
+    <div class="flex items-center lg:mr-28">
+      <div class="space-y-5">
+        <h2 class="text-5xl font-extrabold text-white">Meet Our Super<br>Clients</h2>
+        <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        <button class="btn btn-primary">Show All</button>
+        </div>
+    </div>
+     <!----review continer------->
+    <div class="relative"><!----parent--div----->
+     <!----next review------>
+     <div class="p-10 rounded-lg bg-white relative opacity-40 mb-16 z-10">
+     <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white" src="img/client.png">   
     <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
     <h4 class="font-bold mt-5">Ilham Yuda</h4>
     <p class="font-medium">Businessman</p>
+    <div class="flex justify-end">
+    <img class="" src="img/circles.png">
+    </div>
      </div>
+      <!----curtent review------>
+      <div class="p-10 rounded-lg bg-white absolute top-40 lg:-left-24 lg:w-[430px] z-20">
+        <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white" src="img/client.png">   
+       <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+       <h4 class="font-bold mt-5">Ilham Yuda</h4>
+       <p class="font-medium">Businessman</p>
+       <div class="flex justify-end">
+       <img class="" src="img/circles.png">
+       </div>
+        </div>
+         <!--previous--review------>
+     <div class="p-10 rounded-lg bg-white relative opacity-40 z-10">
+    <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white" src="img/client.png">   
+     <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+     <h4 class="font-bold mt-5">Ilham Yuda</h4>
+     <p class="font-medium">Businessman</p>
+     <div class="flex justify-end">
+     <img class="" src="img/circles.png">
+     </div>
+    </div>
+  </div>
    </section>
 
     </main>
     
-
+  
         
-    <footer>
-
+    <footer class="lg:px-48 px-4 py-10  bg-base-200 text-base-content bg-gradient-to-r from-red-100 to-[#E6A6231A]">
+      <div class="flex justify-between my-24">
+      <img src="img/cup.png">
+      <p><span>Ready to get strated?</span></p>
+      <button class="btn btn- text-white bg-gradient-to-r from-[#FF8938] to-[#F00]">Get Started</button>
+      </div>
+      <div class="footer">
+        <nav>
+          <header class="footer-title"><span class="font-extrabold text-[#1C1C1C]">Quick Links</span></header> 
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">About Us</a>
+          <a class="link link-hover">Insurance</a>
+          <a class="link link-hover">Privacy Policy</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Our Service</header> 
+          <a class="link link-hover">Life Insurance</a>
+          <a class="link link-hover">Car Insurance</a>
+          <a class="link link-hover">Health Insurance</a>
+          <a class="link link-hover">House Insurance</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Help</header> 
+          <a class="link link-hover">FAQs</a>
+          <a class="link link-hover">Contact Us</a>
+          </nav> 
+        <form>
+          <header class="footer-title"><span class="text-green-500">Subscribe to our</span><br>newsletter</header> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Email address</span>
+            </label> 
+            <div class="join">
+              <input type="text" class="border-b-2 bg-transparent border-[#494949] outline-none" /> 
+              <button class="btn btn- bg-gradient-to-r from-[#FF8938] to-[#F00] rounded-full text-white">
+              <i class="fa fa-chevron-right"></i>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="text-center  mt-10">
+    <p>© 2027 UIDesign.to - All rights reserved</p>
+      </div>
     </footer>
       
 </body>
